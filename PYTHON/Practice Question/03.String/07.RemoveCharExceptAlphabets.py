@@ -1,4 +1,6 @@
-# Remove Characters Except Alphabets
+''' Remove Characters Except Alphabets
+Input: take12% *&u; ^$#forward
+Output: takeuforward  '''
 
 def remove_char_except_alpha(str):
     res = ""

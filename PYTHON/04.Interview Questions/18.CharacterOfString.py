@@ -3,7 +3,7 @@
 s = input("Enter your string : ")
 
 i = 0
-print("haracters of a string present at even index number:")
+print("Characters of a string present at even index number:")
 
 while i<len(s):
     if i%2 == 0:
@@ -11,7 +11,7 @@ while i<len(s):
     i=i+2
 
 j = 1
-print("haracters of a string present at odd index number:")
+print("Characters of a string present at odd index number:")
 while j<len(s):
     if j%2 != 0:
         print(s[j])

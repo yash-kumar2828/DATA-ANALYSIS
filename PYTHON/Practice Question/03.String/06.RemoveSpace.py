@@ -1,4 +1,6 @@
-# Remove Spaces from a String
+''' Remove Spaces from a String
+Input: take U forward
+Output: takeUforward'''
 
 def remove_space(str):
     res = ""

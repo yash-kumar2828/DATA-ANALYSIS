@@ -1,4 +1,7 @@
-# Remove Brackets from an Algebraic
+''' Remove Brackets from an Algebraic
+Input: a+((b-c)+d)
+Output: a+b-c+d'''
+
 
 def remove_bracket(str):
     res = ""

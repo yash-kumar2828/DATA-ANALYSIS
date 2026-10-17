@@ -1,4 +1,6 @@
-# Sum of the Numbers in a String
+'''Sum of the Numbers in a String
+Input: 123xyz
+Output: 123  '''
 
 def sum_of_number_in_string(str):
     res = ''

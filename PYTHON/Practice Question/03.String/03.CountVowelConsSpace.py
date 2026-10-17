@@ -1,4 +1,6 @@
-# Count Vowels, Consonants and Spaces
+''' Count Vowels, Consonants and Spaces
+Input: Take u forward is Awesome
+Output: Vowels: 10, Consonants: 11, White spaces: 4'''
 
 def count_vowel_consonant_space(str):
     vowel = 0

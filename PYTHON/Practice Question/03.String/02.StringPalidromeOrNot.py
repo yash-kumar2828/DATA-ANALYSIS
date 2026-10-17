@@ -1,4 +1,7 @@
-# Check if a String is Palindrome
+''' Check if a String is Palindrome
+Input: ABCDCBA
+Output: Palindrome  '''
+
 
 def is_palidrome(str):
     rev = ""

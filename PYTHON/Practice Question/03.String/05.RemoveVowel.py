@@ -1,4 +1,7 @@
-# Remove All Vowels from a String
+''' Remove All Vowels from a String
+Input: take u forward
+Output: tk frwrd'''
+
 
 def remove_vowel(str):
     res = ""
