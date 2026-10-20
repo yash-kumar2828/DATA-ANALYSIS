@@ -1,18 +1,13 @@
 # Calculate Combinations: Select R People from N People
 # Formula:- nCr = n!/(r! * (n-r)!)
 
-def get_factorial(n):
-    if n == 0 or n==1:
-        return 1
-
-    return n*get_factorial(n-1)
-
 def get_combination(n,r):
-    a = get_factorial(n)
-    b = get_factorial(r)
-    c = get_factorial(n-r)
+    comb = 1
 
-    return a//(b*c)
+    for i in range(r):
+        comb = comb * (n-i)//(i+1)
+
+    return comb
 
 n = int(input("Enter the value of n : "))
 r = int(input("Enter the value of r : "))
