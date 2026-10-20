@@ -1,8 +1,8 @@
 # Find the Maximum and Minimum Digit in a Number
 
 num = int(input("Enter your positive number : "))
-max = 0
-min = 9
+max = num%10
+min = num%10
 
 while num>0:
     lastDigit = num%10
