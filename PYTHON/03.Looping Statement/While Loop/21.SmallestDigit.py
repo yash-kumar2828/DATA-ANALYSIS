@@ -1,7 +1,7 @@
 # WAP  to find the smallest digit of present inside the given number
 
 num = int(input("Enter your number:"))
-small = 9
+small = num%10
 
 while num>0:
     lastDigit = num%10
